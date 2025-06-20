@@ -1,2 +1,29 @@
-# Curriculo
-Currículo online com experiência, habilidades e formação.
+# 💼 Currículo Online — Kayque Miqueias
+
+### 📌 Sobre
+
+Este repositório contém meu currículo em formato de página web, feito com **HTML e CSS**.
+
+A ideia é ter uma versão moderna e acessível do meu perfil profissional, fácil de visualizar e compartilhar.
+
+## 📁 Estrutura
+
+📂 Curriculo<br>
+├── 📄 index.html<br>
+├── 📄 README.md<br>
+└── 📄 style.css<br>
+
+### 🚀 Como Usar
+
+1. Acesse o curriculo online: (https://github.com/kayquemab/curriculo-online)
+2. Analise para conhecer minha experiência, habilidades e formação profissional.
+
+### 🤝 Contribuição
+
+Sugestões são bem-vindas! Abra um Pull Request.
+
+### 📜 Licença
+
+MIT. Use e modifique como quiser.
+
+

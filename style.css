@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg,#e6e9f8, #ffffff);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .top-bar {
+  width: 100%;
+  max-width: 1200px;
+  background: #fff;
+  padding: 16px 32px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 18px;
+  color: #c2ccfa;
+}
+
+header .home-link {
+  color: #c2ccfa;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 280px;
+  max-width: 320px;
+}
+
+.sidebar h1 {
+  color: #c2ccfa;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sidebar .role {
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.sidebar .contacts p,
+.sidebar .languages p {
+  font-size: 14px;
+  color: #444;
+}
+
+.sidebar .contacts a {
+  color: #c2ccfa;
+  text-decoration: none;
+}
+
+.skills h2,
+.languages h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #c2ccfa;
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.skills li {
+  background: #f3e6ec;
+  color: #5975f1;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.content {
+  flex: 3;
+  background: #fff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #c2ccfa;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  margin-top: 10px;
+}
+
+.section ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #444;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+@media (max-width: 860px) {
+  main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    max-width: 100%;
+  }
+}

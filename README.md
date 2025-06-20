@@ -9,8 +9,8 @@ A ideia é ter uma versão moderna e acessível do meu perfil profissional, fác
 ## 📁 Estrutura
 
 📂 Curriculo<br>
-├── 📄 index.html<br>
 ├── 📄 README.md<br>
+├── 📄 index.html<br>
 └── 📄 style.css<br>
 
 ### 🚀 Como Usar

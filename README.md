@@ -15,7 +15,7 @@ A ideia é ter uma versão moderna e acessível do meu perfil profissional, fác
 
 ### 🚀 Como Usar
 
-1. Acesse o curriculo online: (https://kayquemab.github.io/Curriculo/)
+1. Acesse o curriculo online: (https://kayquemab.github.io/HTML5_6/)
 2. Analise para conhecer minha experiência, habilidades e formação profissional.
 
 ### 🤝 Contribuição
